@@ -38,7 +38,7 @@ CloneReaper is a Python-based utility that helps you identify and manage duplica
 
 Simply run the script with Python and follow the interactive prompts:
 
-`python dupefinder.py`
+`python CloneReaper.py`
 
 The tool will guide you through:
 

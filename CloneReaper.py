@@ -550,7 +550,8 @@ def delete_duplicates_interactive(
 # --- Main Execution ---
 def main():
     setup_logging(logging.INFO) # Setup basic logging for warnings/errors
-    print("--- Duplicate File Finder ---")
+    display_banner()
+    print("Welcome to CloneReaper!")
 
     # 1. Get Configuration
     config = get_scan_options_from_user()
@@ -624,6 +625,19 @@ def main():
 
     end_time = time.time()
     print(f"\nScript finished in {end_time - start_time:.2f} seconds.")
+
+
+def display_banner():
+    banner = r"""
+ ██████╗██╗      ██████╗ ███╗   ██╗███████╗██████╗ ███████╗ █████╗ ██████╗ ███████╗██████╗ 
+██╔════╝██║     ██╔═══██╗████╗  ██║██╔════╝██╔══██╗██╔════╝██╔══██╗██╔══██╗██╔════╝██╔══██╗
+██║     ██║     ██║   ██║██╔██╗ ██║█████╗  ██████╔╝█████╗  ███████║██████╔╝█████╗  ██████╔╝
+██║     ██║     ██║   ██║██║╚██╗██║██╔══╝  ██╔══██╗██╔══╝  ██╔══██║██╔═══╝ ██╔══╝  ██╔══██╗
+╚██████╗███████╗╚██████╔╝██║ ╚████║███████╗██║  ██║███████╗██║  ██║██║     ███████╗██║  ██║
+ ╚═════╝╚══════╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝     ╚══════╝╚═╝  ╚═╝
+
+"""
+    print(banner)
 
 
 if __name__ == "__main__":

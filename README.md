@@ -8,13 +8,13 @@
      ╚═════╝╚══════╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝     ╚══════╝╚═╝  ╚═╝ 
 
 ```
-# CloneReaper
+# Clone Reaper
 
 A powerful and efficient duplicate file finder with interactive options for managing disk space.
 
 ## Overview
 
-CloneReaper is a Python-based utility that helps you identify and manage duplicate files on your system. It uses a multi-stage approach to efficiently scan directories, identify potential duplicates, and provide interactive options for removing unnecessary copies.
+Clone Reaper is a Python-based utility that helps you identify and manage duplicate files on your system. It uses a multi-stage approach to efficiently scan directories, identify potential duplicates, and provide interactive options for removing unnecessary copies.
 
 ## Features
 
